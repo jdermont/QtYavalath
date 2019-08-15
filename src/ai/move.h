@@ -4,7 +4,7 @@
 #include <vector>
 #include <stdint.h>
 
-#define INF 2000000000
+#define INF 1000000000
 
 using namespace std;
 
@@ -16,7 +16,7 @@ public:
     bool terminal;
 
     int32_t score;
-    uint32_t games;
+    int32_t games;
 
     vector<Move*> children;
 

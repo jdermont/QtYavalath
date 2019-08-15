@@ -37,7 +37,7 @@ bool Board::isFilled(int move) {
     return ((board >> move) & 1) != 0;
 }
 
-void Board::setBoard(Board board) {
+void Board::setBoard(const Board & board) {
     oneBoard = board.oneBoard;
     twoBoard = board.twoBoard;
 }

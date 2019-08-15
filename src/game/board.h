@@ -580,7 +580,7 @@ public:
     void makeMove(int player, int move);
     void undoMove(int player, int move);
     bool isFilled(int move);
-    void setBoard(Board board);
+    void setBoard(const Board & board);
     bool isOver(int player, int move);
     int getWinner(int player, int move);
     string getState();
