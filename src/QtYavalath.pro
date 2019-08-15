@@ -26,11 +26,13 @@ CONFIG += c++11
 
 SOURCES += \
         game/board.cpp \
+        game/game.cpp \
         main.cpp \
         mainwindow.cpp
 
 HEADERS += \
         game/board.h \
+        game/game.h \
         mainwindow.h
 
 FORMS += \

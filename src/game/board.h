@@ -5,9 +5,9 @@
 #include <vector>
 #include <string>
 
-#define PLAYER_NONE 0
-#define PLAYER_ONE 1
-#define intWO 2
+#define PLAYER_NONE -1
+#define PLAYER_ONE 0
+#define PLAYER_TWO 1
 
 using namespace std;
 

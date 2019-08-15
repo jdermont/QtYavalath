@@ -1,8 +1,8 @@
 #include "board.h"
 
 Board::Board() {
-
-
+    oneBoard = 0L;
+    twoBoard = 0L;
 }
 
 vector<int> Board::getAvailableMoves() {
