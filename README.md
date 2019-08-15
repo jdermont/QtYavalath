@@ -9,4 +9,4 @@ MCTS AI for Yavalath. From "vanilla" MCTS it differs:
 * it avoid losing moves if possible (move selection as well in rollouts/simulations)
 * it uses winning moves if possible (move selection as well in rollouts/simulations)
 
-Those simple things greatly enhance the strength. More enchancement incoming after GUI complete, i.e. opening books, RAVE, some heuristics for progressive bias, pattern matching.
+Those simple things greatly enhance the strength. More enchancement incoming after GUI complete, i.e. exploration tuning, opening books, RAVE, some heuristics for progressive bias, pattern matching.
