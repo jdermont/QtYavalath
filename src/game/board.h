@@ -3,13 +3,11 @@
 
 #include <stdint.h>
 #include <vector>
+#include <string>
 
 #define PLAYER_NONE 0
 #define PLAYER_ONE 1
-#define PLAYER_TWO 2
-
-typedef uint8_t player_t;
-typedef uint8_t move_t;
+#define intWO 2
 
 using namespace std;
 
@@ -578,13 +576,20 @@ class Board
 {
 public:
     Board();
+    vector<int> getAvailableMoves();
+    void makeMove(int player, int move);
+    void undoMove(int player, int move);
+    bool isFilled(int move);
+    void setBoard(Board board);
+    bool isOver(int player, int move);
+    int getWinner(int player, int move);
+    string getState();
 
 private:
     uint64_t oneBoard, twoBoard;
 
-    bool isWinner(player_t player, move_t move);
-
-    bool isLoser(player_t player, move_t move);
+    bool isWinner(int player, int move);
+    bool isLoser(int player, int move);
 };
 
 #endif // BOARD_H
