@@ -25,12 +25,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        ai/cpu.cpp \
         game/board.cpp \
         game/game.cpp \
         main.cpp \
         mainwindow.cpp
 
 HEADERS += \
+        ai/cpu.h \
+        ai/move.h \
         game/board.h \
         game/game.h \
         mainwindow.h
