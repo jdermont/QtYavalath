@@ -28,6 +28,7 @@ SOURCES += \
         ai/cpu.cpp \
         game/board.cpp \
         game/game.cpp \
+        gui/boardview.cpp \
         main.cpp \
         mainwindow.cpp
 
@@ -36,6 +37,7 @@ HEADERS += \
         ai/move.h \
         game/board.h \
         game/game.h \
+        gui/boardview.h \
         mainwindow.h
 
 FORMS += \
